@@ -1,5 +1,59 @@
 {% extends "tasks/base.html" %}
 
 {% block content %}
-    <p>This is my home page for my task management system ...</p>
-{% endblock %}
+
+    <!-- Task Manager Columns -->
+    <div class="row">
+        <!-- To Do Column -->
+        <div class="col-md-4">
+            <h5>TO DO</h5>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">Notification</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Alice</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">Test Geolocation</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Bob</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">User Interface Flow</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Bob</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- In Progress Column -->
+        <div class="col-md-4">
+            <h5>In Progress</h5>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">Geolocation Algorithm</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Susan</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">User Authentication</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Josh</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Done Column -->
+        <div class="col-md-4">
+            <h5>Done</h5>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h6 class="card-title">Design Event Mapping UI</h6>
+                    <p class="card-text"><i class="bi bi-person-fill"></i> Steven</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
