@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'tasks',
     'storages',
     'widget_tweaks',
+    #'debug_toolbar', not yet installed 
+    #'django-extensions',
 ]
 
 MIDDLEWARE = [
